@@ -26,8 +26,8 @@ class ViewController: UIViewController {
     super.init(coder: aDecoder)
     
     text.on(.click) { [weak self] options in
-      let t = options.cell?.title.text ?? ""
-      options.cell?.configure(with: t + t + t)
+      let title = options.cell?.title.text ?? ""
+      options.cell?.configure(with: title + title)
       self?.view.setNeedsLayout()
       self?.view.layoutIfNeeded()
     }
@@ -57,10 +57,7 @@ class ViewController: UIViewController {
     }
     heightTableViewConstraint.constant = tableView.contentSize.height
   }
-}
-
-extension ViewController {
-  
+ 
   func interactPickerOne(with indexPath: IndexPath) {
     isPickerOneShow = !isPickerOneShow
     
@@ -107,10 +104,7 @@ extension ViewController {
     let updatedIndexPath = IndexPath(row: row, section: path.section)
     indexPath = updatedIndexPath
   }
-}
-
-extension ViewController {
-  
+ 
   func insertPicker(with indexPath: IndexPath) {
     
     section.insert(row: pickerOne, at: indexPath.row)
@@ -123,9 +117,6 @@ extension ViewController {
       self.view.layoutIfNeeded()
     }
   }
-}
-
-extension ViewController {
   
   func removePicker(with indexPath: IndexPath, animated: Bool = true) {
     
