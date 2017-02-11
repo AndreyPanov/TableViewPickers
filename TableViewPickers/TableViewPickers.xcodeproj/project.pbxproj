@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77F04AFF1E4F95570042415F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F04AFE1E4F95570042415F /* MapKit.framework */; };
 		9C0F43EC0C4B2003C5E38A8E /* Pods_TableViewPickers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890B4A39BB81909BCBBC17A5 /* Pods_TableViewPickers.framework */; };
 		AD1D7D291E4E2EDB0071E628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1D7D281E4E2EDB0071E628 /* AppDelegate.swift */; };
 		AD1D7D301E4E2EDB0071E628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1D7D2F1E4E2EDB0071E628 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		330C1258C59E25550306AE28 /* Pods-TableViewPickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewPickers.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewPickers/Pods-TableViewPickers.release.xcconfig"; sourceTree = "<group>"; };
 		64E7A8F70CA9D2097CE81BB9 /* Pods-TableViewPickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewPickers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewPickers/Pods-TableViewPickers.debug.xcconfig"; sourceTree = "<group>"; };
+		77F04AFE1E4F95570042415F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		890B4A39BB81909BCBBC17A5 /* Pods_TableViewPickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewPickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1D7D251E4E2EDB0071E628 /* TableViewPickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1D7D281E4E2EDB0071E628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F04AFF1E4F95570042415F /* MapKit.framework in Frameworks */,
 				9C0F43EC0C4B2003C5E38A8E /* Pods_TableViewPickers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		A44EE15943DC4B6B5E9887B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				77F04AFE1E4F95570042415F /* MapKit.framework */,
 				890B4A39BB81909BCBBC17A5 /* Pods_TableViewPickers.framework */,
 			);
 			name = Frameworks;
